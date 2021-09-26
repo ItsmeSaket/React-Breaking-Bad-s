@@ -1,28 +1,3 @@
-<!-- import React from "react";
-import ReactDom from "react-dom";
-import "./index.css"
+# Breaking Bad Characters using React js
 
-const name = "Saket Subham"
-const img1 = "https://picsum.photos/200/300"
-const img2 = "https://picsum.photos/220/300"
-const img3 = "https://picsum.photos/240/300"
-// const links = "https://itsmesaket.github.io/"
-
-const headStyle = {
-  textAlign : "center", 
-  margin: "70px" ,
-  fontSize: "70px",
-  color : "#fa9191",
-  fontFamily: "'Josefin Sans', sans-serif"
-}
-
-ReactDom.render(
-  <>
-    <h1 style={headStyle} className="heading">My name is {name} </h1>
-    <div className="container">
-      <img src={img1} alt="Random" />
-      <img src={img2} alt="Random" />
-      <img src={img3} alt="Random" />
-    </div>
-  </>, document.getElementById('root')
-) -->
+This Repository is done using React js to show the Breaking Bad Characters . The data is used from array of an object which is included in the file. It also includes a Greet page, which welcomes the user per time. For eg - Says 'Good Morning' Before 12 pm 
