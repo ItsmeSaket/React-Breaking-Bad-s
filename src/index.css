@@ -1,13 +1,83 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div.container1{
+    width: 100vw;
+    height: calc(100vh - 56px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: powderblue;
+}
+h1{
+    font-size: 70px;
+    padding: 25px;
+    border-radius: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: rgb(253, 230, 234);
+    color: #fa9191;
+}
+img{
+    width: 240;
+    height: 300;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+div.body{
+    background-color: rgb(200, 225, 228);
+    margin: 0;
+}
+div.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.body h1{
+    font-size: 70px;
+    padding: 25px;
+    border-radius: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: rgb(253, 230, 234);
+    color: #fa9191;
+    margin: 30px;
+}
+div.characters div.character img{
+    width: 300px;
+    height: 400px;
+    border-radius: 25px 25px 0 0;
+}
+div.characters{
+    margin-top: 30px 0 30px 0;
+}
+div.content{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+
+}
+div.character{
+    background-color: white;
+    width: 300px;
+    height: 550px;
+    border-radius: 25px;
+    margin: 0 70px 70px 50px;
+}
+div.charInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+div.character:hover{
+    box-shadow: 20px 10px 10px grey;
+    transition: 600ms;
+}
+h3.charName{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 20px;
 }
